@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="hueco">
+        <header>
+            <h1>Mi blog</h1>
+        </header>
+        <nav>
+            <ul id="ordenar">
+                <li><a href="#">Principal</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <section>
+            <article>
+                <span class="fecha">Domingo 10 de julio del 2011</span>
+                <div>
+                    <h2 class="subtitulo">Lorem Ipsum 2</h2>
+                    <p>HTML5 es el sucesor del HTML4.01 y es el último lenguaje de marcado de hipertexto para los sitios web desarrollados por World Wide Web Consortium (W3C) y Grupo Web de hipertexto Aplicación de Tecnología de trabajo (WHATWG).</p>
+                </div>
+            </article>
+            <article>
+                <span class="fecha">Domingo 8 de julio del 2011</span>
+                <div>
+                    <h2 class="subtitulo">Lorem Ipsum 1</h2>
+                    <p>Se dice que HTML5 es el lenguaje de marcado que hace que el proceso de codificación sea más fácil.
+Muchas de las características de HTML5 permite a los usuarios ejecutar contenidos complejos en plataformas de baja potencia.
+Las nuevas características incluyen la sintaxis de video audio, integración de contenido de gráficos vectoriales.</p>
+                </div>
+            </article>
+        </section>
+        <aside>
+            <h2>Archivo</h2>
+            <ul>
+                <li>
+                   <p>2011(2)</p>
+                   <ul>
+                       <li>
+                           <p>Julio</p>
+                       </li>
+                       <li>Lorem 1</li>
+                       <li>Lorem 2</li>
+                   </ul>
+                 </li>
+            </ul>
+            <h2>Acerca de</h2>
+            <p>Carlos</p>
+            <p>Ver mi perfil</p>
+            
+        </aside>
+        <footer>
+           <hr>
+            <p align="center">Derechos reservados 2010 -  2011</p>
+        </footer>
+    </div>
+</body>
+</html>
